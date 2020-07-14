@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
-import { SharedModule } from 'primeng/components/common/shared';
+import { SharedModule } from 'primeng/api';
 import { CalendarModule } from 'primeng/calendar';
 
 import { RelatoriosRoutingModule } from './relatorios-routing.module';
