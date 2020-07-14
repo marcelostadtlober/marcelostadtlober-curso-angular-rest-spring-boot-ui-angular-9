@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 
 import { environment } from './../../environments/environment';
 import * as moment from 'moment';
-import 'rxjs/add/operator/toPromise';
+
 
 import { Lancamento } from 'app/core/model';
 import { MoneyHttp } from 'app/seguranca/money-http';

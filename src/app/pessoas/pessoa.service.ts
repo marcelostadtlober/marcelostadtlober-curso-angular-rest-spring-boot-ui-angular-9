@@ -2,7 +2,7 @@ import { HttpParams, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 import { environment } from './../../environments/environment';
-import 'rxjs/add/operator/toPromise';
+
 
 import { Pessoa, Estado, Cidade } from 'app/core/model';
 import { MoneyHttp } from 'app/seguranca/money-http';
